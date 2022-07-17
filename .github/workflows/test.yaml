@@ -1,0 +1,5 @@
+service:
+    name:kamal
+    class:12
+    roll:14
+service2: hello
