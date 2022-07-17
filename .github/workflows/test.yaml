@@ -1,5 +1,8 @@
-service:
-    name:kamal
-    class:12
-    roll:14
-service2: hello
+name: my-first-github-action
+on: [push]
+jobs:
+    print-hello-world:
+        runs-on: ubuntu-latest
+        steps:
+            - run: echo"hello kamal"
+            - run: echo"ur first job is ready"
